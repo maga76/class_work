@@ -10,6 +10,8 @@
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
+    --font-weight-extrabold: 800;
+    --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
   }
@@ -175,11 +177,23 @@
   .mt-\[20px\] {
     margin-top: 20px;
   }
+  .mt-\[35px\] {
+    margin-top: 35px;
+  }
   .mt-\[40px\] {
     margin-top: 40px;
   }
+  .mt-\[48px\] {
+    margin-top: 48px;
+  }
+  .mt-\[53px\] {
+    margin-top: 53px;
+  }
   .mt-\[100px\] {
     margin-top: 100px;
+  }
+  .mt-\[px\] {
+    margin-top: px;
   }
   .flex {
     display: flex;
@@ -190,11 +204,26 @@
   .table {
     display: table;
   }
+  .h-\[1px\] {
+    height: 1px;
+  }
+  .h-\[2px\] {
+    height: 2px;
+  }
   .h-\[40px\] {
     height: 40px;
   }
   .h-\[253px\] {
     height: 253px;
+  }
+  .w-\[9\] {
+    width: 9;
+  }
+  .w-\[96\.00000000000009\] {
+    width: 96.00000000000009;
+  }
+  .w-\[96px\] {
+    width: 96px;
   }
   .w-\[181px\] {
     width: 181px;
@@ -284,6 +313,9 @@
   .bg-\[\#F2F7FF\] {
     background-color: #F2F7FF;
   }
+  .bg-\[grey\] {
+    background-color: grey;
+  }
   .bg-\[white\] {
     background-color: white;
   }
@@ -302,6 +334,12 @@
   .p-\[40px\] {
     padding: 40px;
   }
+  .pt-\[53px\] {
+    padding-top: 53px;
+  }
+  .text-center {
+    text-align: center;
+  }
   .text-\[12px\] {
     font-size: 12px;
   }
@@ -310,6 +348,9 @@
   }
   .text-\[16px\] {
     font-size: 16px;
+  }
+  .text-\[18px\] {
+    font-size: 18px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -323,9 +364,17 @@
   .text-\[48px\] {
     font-size: 48px;
   }
+  .font-black {
+    --tw-font-weight: var(--font-weight-black);
+    font-weight: var(--font-weight-black);
+  }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .font-extrabold {
+    --tw-font-weight: var(--font-weight-extrabold);
+    font-weight: var(--font-weight-extrabold);
   }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
